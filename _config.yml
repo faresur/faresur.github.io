@@ -1,0 +1,13 @@
+title: FaresUr
+email: faresmarwan@gmail.com
+description: >- # ignore newline char
+  My personal website
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://faresur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "my-site.github.io"
+github_username: faresur
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
