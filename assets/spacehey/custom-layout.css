@@ -1,3 +1,45 @@
-body {
-  background-color: blue;
+.profile {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+}
+
+.col.w-40.left {
+	width: 100% !important;
+}
+
+.profile span {
+  text-align: center;
+}
+
+.general-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.general-about .profile-pic {
+	float: none!important;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0
+}
+.general-about .profile-pic img {
+	max-width: 200px;
+	max-height: 200px;
+  width: 100%;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+.general-about .details {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly
+}
+
+.mood {
+  text-align: center;
 }
