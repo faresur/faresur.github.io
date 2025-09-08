@@ -11,3 +11,4 @@ github_username: faresur
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
