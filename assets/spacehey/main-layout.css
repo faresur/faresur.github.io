@@ -1,3 +1,7 @@
+body {
+  background: url(https://faresur.github.io/assets/spacehey/background-beach.jpg);
+}
+
 .profile {
 	display: flex;
 	flex-direction: column;
